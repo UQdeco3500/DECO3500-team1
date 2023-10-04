@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friending Mode App</title>
+    <link rel="stylesheet" href="../css/2.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <!-- Friending Mode 滑块 -->
+        <div class="slider-container">
+            <input type="checkbox" id="friendSlider" class="slider-checkbox">
+            <label for="friendSlider" class="slider-label"></label>
+            <span>Friending Mode</span>
+        </div>
+        
+        <div class="menu-icon" onclick="toggleFilter()">≡</div>
+    </div>
+
+    <div class="filter-container" id="filterMenu">
+        <h4 class="filter-item">Majors in common</h4>
+        <h4 class="filter-item">Interests in common</h4>
+        <h4 class="filter-item">Teaching staff</h4>
+        <h4 class="filter-item">Levels</h4>
+        <h4 class="filter-item">Friends</h4>
+        <h4 class="filter-item">Classmate</h4>
+    </div>
+
+    <div class="content">
+        <!-- Map content goes here -->
+    </div>
+
+    <div class="bottom-controls">
+        <button>🏠</button>
+        <button>📃</button>
+        <button>📚</button>
+    </div>
+
+    <script src="../javascript/2.js"></script>
+</body>
+
+</html>
