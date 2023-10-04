@@ -1,0 +1,42 @@
+#mapContainer {
+    position: relative;
+    width: 800px; 
+    height: 600px; 
+    overflow: hidden;
+}
+
+#mapImage {
+    width: 100%;
+    height: 100%;
+}
+
+.event {
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.event:hover .eventInfo {
+    display: block;
+}
+
+.eventInfo {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 10px;
+    width: 200px;
+    z-index: 2;
+}
+
+span[onclick] {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
