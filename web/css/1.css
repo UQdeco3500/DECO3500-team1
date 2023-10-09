@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.event {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .event {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  ul {
+    margin-left: 0;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+}
