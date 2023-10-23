@@ -1,64 +1,56 @@
-body {
-  font-family: sans-serif;
+body, html {
+    margin: 0;
+    padding: 0;
 }
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-h1 {
-  font-size: 2em;
-}
-
-.event {
-  margin-top: 20px;
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
-p {
-  margin-bottom: 10px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-@media screen and (max-width: 600px) {
-  .container {
+.top{
     width: 100%;
-  }
+    top: 0;
+}
+.top #profile{
+    height: 20%;
+    width: auto;
+    object-fit: cover;
+}
+.content-box{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.content-box .schdule-box{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+}
+.content-box .schedule-box #schedule{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.content-box .schdule-box #L{
+    position: absolute;
+    top : 1;
+    left: 0;
+    width : 20px;
+    height: auto;
+    object-fit: cover;
+}
 
-  .event {
-    margin-top: 0;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1.2em;
-  }
-
-  p {
-    margin-bottom: 5px;
-  }
-
-  ul {
-    margin-left: 0;
-  }
-
-  li {
-    margin-bottom: 5px;
-  }
+.content-box .events-box{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+}
+.content-box .events-box #events{
+    width: 100%;
+    height: auto;
+}
+.content-box .events-box #pwc{
+    position: absolute;
+    top : 1;
+    left: 0;
+    width : 50px;
+    height: auto;
+    object-fit: cover;
 }
