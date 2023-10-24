@@ -5,52 +5,27 @@ body, html {
 .top{
     width: 100%;
     top: 0;
+    text-align: center;
 }
-.top #profile{
-    height: 20%;
-    width: auto;
-    object-fit: cover;
-}
-.content-box{
-    width: 100%;
+.top img{
+    width: 80%;
     height: auto;
     object-fit: cover;
-}
-.content-box .schdule-box{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    position: relative;
-}
-.content-box .schedule-box #schedule{
-    width: 100%;
-    height: auto;
-    margin: 10px;
-}
-.content-box .schdule-box #L{
-    position: absolute;
-    top : 1;
-    left: 0;
-    width : 20px;
-    height: auto;
-    object-fit: cover;
+    vertical-align: middle;
 }
 
-.content-box .events-box{
-    width: 100%;
+.content-box{
+    max-width: 100%;
     height: auto;
-    object-fit: cover;
-    position: relative;
+    
 }
-.content-box .events-box #events{
-    width: 100%;
-    height: auto;
+
+.schdule-box{
+    margin: 40px;
+   
+    
 }
-.content-box .events-box #pwc{
-    position: absolute;
-    top : 1;
-    left: 0;
-    width : 50px;
-    height: auto;
-    object-fit: cover;
+
+.events-box{
+    margin: 40px;
 }

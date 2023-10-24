@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="../css/1.css">
 <body>
     <div class="main-container">
         <div class="top">
-            <a href="../html/6.html", class="pwc-like">
-                <img src="../img/profile.png", id="profile">
-            </a>
-            <img src="../img/star.png", id="star">
-            <img src="../img/add.png", id="add">
+            <img src="../img/profile-top.png", id="profile">
         </div>
         <div class="content">
-            <div class="schedule-box">
-                <img src="../img/schedule.png", id="schedule">
-                <img src="../img/2017L.png", id="L">
+            <div class="schdule-box">
+                <map name="image-map">
+                    <area href="../html/5.html",coords="377,140,25,60", shape="rect">
+                    <area href="../html/5.html",coords="373,19,337,53", shape="rect">
+                </map>
+                <img src="../img/2017L-S.png", usemap="#image-map">
             </div>
             <div class="events-box">
-                <img src="../img/events.png", id="events">
-                <img src="../img/pwc.png", id="pwc">
+                <map name="events-pwc">
+                    <area shape="rect", coords="210,233,14,54", href="../html/6.html">
+                </map>
+                <img src="../img/events-box.png", usemap="#events-pwc">
             </div>
         </div>
     </div>
 </body>
 </head>
-</html>>
+</html>
