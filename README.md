@@ -3,7 +3,7 @@
 To use the app on your android device, follow this guide
 
 1. Download Unity Hub
-2. Downnload Unity 2021.3.26f1
+2. Download Unity 2021.3.26f1
 3. Download Android Package
 4. Clone Github link
 5. Open file DECO3500-Unity in Unity
@@ -31,5 +31,5 @@ Medium Fidelity Prototype
 https://www.figma.com/proto/cdaMFmcWV9wj7V8cR9bCQa/SMC-Final-Prototype?page-id=92%3A2408&type=design&node-id=92-5114&viewport=155%2C317%2C0.29&t=FHdeEbKbLaxaUduz-1&scaling=scale-down&fbclid=IwAR36G_TZ4FQDQPCvU0813pvnUDuzB1IJZ99wsvjyyzXCYQ8UaPL1Xo9FOzY
 
 
-Follow this link to see a summary of all other pages in the app
+Follow this link to see a summary of all other pages in this repository
 https://github.com/UQdeco3500/DECO3500-team1/wiki
