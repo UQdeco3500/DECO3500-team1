@@ -1,5 +1,8 @@
 # DECO3500-team1
 
+Campus Connect is an all-in-one gamified social app that allows university students to form and maintain friendships at university by incentivizing them by earning NFTs and in game points to purchase free items and get discounts. Users can meet like-minded people on campus, maximize their in-class exposure by having a shared calendar, and check events that their friends are attending. The app's ultimate goal is to enhance students' mental well-being by encouraging them to form meaningful friendships in uni and fostering a vibrant campus culture.
+
+
 To use the app on your android device, follow this guide
 
 1. Download Unity Hub
