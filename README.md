@@ -1,5 +1,7 @@
 # DECO3500-team1
 
+<img width="1164" alt="Screenshot 2023-10-27 at 9 40 58 am" src="https://github.com/UQdeco3500/DECO3500-team1/assets/69346660/8ad3935e-d565-460f-9593-deaad6c1cae9">
+
 Campus Connect is an all-in-one gamified social app that allows university students to form and maintain friendships at university by incentivizing them by earning NFTs and in game points to purchase free items and get discounts. Users can meet like-minded people on campus, maximize their in-class exposure by having a shared calendar, and check events that their friends are attending. The app's ultimate goal is to enhance students' mental well-being by encouraging them to form meaningful friendships in uni and fostering a vibrant campus culture.
 
 
